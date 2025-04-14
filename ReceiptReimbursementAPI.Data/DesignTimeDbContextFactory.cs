@@ -9,9 +9,9 @@ namespace ReceiptReimbursementAPI.Data
     {
         public ReimbursementDbContext CreateDbContext(string[] args)
         {
-            // Load config manually since this doesn't run through Program.cs
+            // Build configuration
             var config = new ConfigurationBuilder()
-                .SetBasePath(Directory.GetCurrentDirectory()) // Path to where you're running EF command
+                .SetBasePath(Directory.GetCurrentDirectory())
                 .AddJsonFile("appsettings.json")
                 .Build();
 

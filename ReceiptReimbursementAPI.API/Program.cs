@@ -29,6 +29,8 @@ builder.Services.AddCors(options =>
 });
 
 
+builder.WebHost.UseUrls("http://0.0.0.0:8080");
+
 var app = builder.Build();
 
 // Configure middleware
@@ -36,6 +38,12 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+
+    using (var scope = app.Services.CreateScope())
+    {
+        var db = scope.ServiceProvider.GetRequiredService<ReimbursementDbContext>();
+        db.Database.EnsureCreated();
+    }
 }
 
 app.UseHttpsRedirection();
