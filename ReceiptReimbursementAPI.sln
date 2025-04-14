@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiptReimbursementAPI.API", "ReceiptReimbursementAPI.API\ReceiptReimbursementAPI.API.csproj", "{FDEE8D21-F8FC-43DE-A2A6-B3242F6DC8A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiptReimbursementAPI.Model", "ReceiptReimbursementAPI.Model\ReceiptReimbursementAPI.Model.csproj", "{59CC9ED7-D531-4060-ACC8-0FC6B880B4EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiptReimbursementAPI.Data", "ReceiptReimbursementAPI.Data\ReceiptReimbursementAPI.Data.csproj", "{6AE63D25-28D7-48B0-8C10-C681F7A09F91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiptReimbursementAPI.Application", "ReceiptReimbursementAPI.Application\ReceiptReimbursementAPI.Application.csproj", "{466AD814-281C-4A14-83D4-65A32AED794C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDEE8D21-F8FC-43DE-A2A6-B3242F6DC8A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDEE8D21-F8FC-43DE-A2A6-B3242F6DC8A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDEE8D21-F8FC-43DE-A2A6-B3242F6DC8A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDEE8D21-F8FC-43DE-A2A6-B3242F6DC8A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59CC9ED7-D531-4060-ACC8-0FC6B880B4EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59CC9ED7-D531-4060-ACC8-0FC6B880B4EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59CC9ED7-D531-4060-ACC8-0FC6B880B4EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59CC9ED7-D531-4060-ACC8-0FC6B880B4EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AE63D25-28D7-48B0-8C10-C681F7A09F91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AE63D25-28D7-48B0-8C10-C681F7A09F91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AE63D25-28D7-48B0-8C10-C681F7A09F91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AE63D25-28D7-48B0-8C10-C681F7A09F91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{466AD814-281C-4A14-83D4-65A32AED794C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{466AD814-281C-4A14-83D4-65A32AED794C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{466AD814-281C-4A14-83D4-65A32AED794C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{466AD814-281C-4A14-83D4-65A32AED794C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
